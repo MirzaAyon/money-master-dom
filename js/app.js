@@ -10,11 +10,11 @@ function getInputValue(inputFieldId){
     const inputValue = element(inputFieldId).value;
     // check isNaN 
     if(isNaN(inputValue)){
-        document.getElementById('error-message').innerText =" Please Check " + inputFieldId + ". It's NaN."; 
+        document.getElementById('error-message').innerText =" Please Check " + inputFieldId + ". It's a NaN."; 
         return -1;
     }
     else if(inputValue < 1){   // check It's positive or negative
-        document.getElementById('error-message').innerText = " Please Check " + inputFieldId + ". It's negative value.";
+        document.getElementById('error-message').innerText = " Please Check " + inputFieldId + ". It's a negative value.";
         return -1;
     }
 
