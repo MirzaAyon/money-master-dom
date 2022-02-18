@@ -80,7 +80,7 @@ document.getElementById('calculate-btn').addEventListener('click' , function(){
         setInnerText('blance', blance);
         // error hide 
         failError.style.display = 'none';
-        document.getElementById('error-message').innerText = "Influence blance. please check your expenses.";
+        document.getElementById('error-message').innerText = "Insufficient blance. please check your expenses.";
         // save button enablle 
         saveButton.disabled = false;
     }
